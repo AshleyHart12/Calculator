@@ -1,0 +1,41 @@
+.container {
+  width: 300px;;
+  height: 60vh;
+  border: solid 2px rgb(72, 131, 6);
+  background-color: black;
+}
+
+#display {
+  text-align: right;
+  color: white;
+  padding: 10px;
+}
+
+.key-clear {
+  background-color: brown;
+  color: white;
+  border: solid 1px black;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.function {
+  background-color: lightslategray;
+  border: solid 1px black;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.number {
+  background-color: lightgray;
+  border: solid 1px black;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
